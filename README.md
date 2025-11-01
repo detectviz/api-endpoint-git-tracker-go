@@ -1,5 +1,14 @@
 # API Endpoint Git Tracker (Go)
 
+<p align="center">
+  <img src="https://img.shields.io/github/go-mod/go-version/detectviz/api-endpoint-git-tracker-go?style=for-the-badge">
+  <img src="https://img.shields.io/github/last-commit/detectviz/api-endpoint-git-tracker-go?style=for-the-badge">
+  <img src="https://img.shields.io/github/languages/top/detectviz/api-endpoint-git-tracker-go?style=for-the-badge">
+  <img src="https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Grafana-Integration-orange?style=for-the-badge&logo=grafana&logoColor=white">
+  <img src="https://img.shields.io/github/stars/detectviz/api-endpoint-git-tracker-go?style=for-the-badge">
+</p>
+
 一個用 Go 語言實現的簡單的 HTTP 服務器，用於提供 API endpoints 的 CSV 數據。
 
 ![Grafana Dashboard](./api_endpoints_daily_summary.jpg)
