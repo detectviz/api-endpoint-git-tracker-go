@@ -42,19 +42,22 @@ git clone https://github.com/detectviz/api-endpoint-git-tracker-go.git
 - `api_endpoints_with_summary.csv`
 - `api_endpoints_daily_summary.csv`
 
-**獲取 CSV 文件：** 這些 CSV 文件可以從 [detectviz/api-endpoint-git-tracker](https://github.com/detectviz/api-endpoint-git-tracker) 項目使用其分析腳本從 Swagger/OpenAPI 文件中產生。
+**獲取 CSV 文件：** 這些 CSV 文件可以從 `scripts` 目錄中的 `analyze_api_endpoints.sh` 腳本從 Swagger/OpenAPI 文件中產生。
 
 ## 項目結構
 
 ``` bash
 api-endpoint-git-tracker-go/
-├── main.go                            # 主程序文件
-├── go.mod                             # Go 模組文件
-├── api_endpoints_with_summary.csv     # API endpoints 原始數據
-├── api_endpoints_daily_summary.csv    # 每日統計數據
-├── api_endpoints_daily_summary.jpg    # Grafana 儀表板截圖
-├── api_endpoints_daily_summary.json   # Grafana 儀表板配置
-└── README.md                          # 說明文件
+├── main.go                              # 主程序文件
+├── go.mod                               # Go 模組文件
+├── scripts/
+│   ├── analyze_api_endpoints.sh         # 分析腳本
+├── dashboard/
+│   ├── api_endpoints_daily_summary.jpg  # Grafana 儀表板截圖
+│   └── api_endpoints_daily_summary.json # Grafana 儀表板配置
+├── api_endpoints_daily_summary.csv      # 每日統計數據
+├── api_endpoints_with_summary.csv       # API endpoints 原始數據
+└── README.md                            # 說明文件
 ```
 
 ## 運行服務器

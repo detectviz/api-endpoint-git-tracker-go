@@ -17,5 +17,6 @@
 
 #ide setting
 .idea
+*.csv
 .vscode
 *.conf
